@@ -1,0 +1,36 @@
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/dist-ssr/
+playwright-report/
+frontend/playwright-report/
+test-results/
+frontend/test-results/
+.env*.local
+
+# Java & Backend
+backend/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+!backend/mvnw
+!backend/mvnw.cmd
+!backend/.mvn/wrapper/maven-wrapper.properties
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
